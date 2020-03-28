@@ -3,6 +3,7 @@
 ## Goals 
 * Ingest and accumulate the data about COVID, with a focus initially on my own country, the United States of America 
 * The idea is to monitor Github repositories [with webhooks](https://developer.github.com/webhooks/) to trigger a Lambda function which will then launch this Spring Batch job and update a statically-generated site containing the data.
+* The site should also contain as much news as I can get from Pinboard, ideally indexed by date
 
 ## Data 
 This repository contains random artifacts that I'll use in this site. 
